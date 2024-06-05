@@ -1,33 +1,25 @@
 %! Author = jonathan
 %! Date = 6/1/24
-@article{shazeer,
-  author        = {Noam Shazeer and Azalia Mirhoseini and Krzysztof Maziarz and Andy Davis and Quoc V. Le and Geoffrey E. Hinton and Jeff Dean},
+
+# We comment bib entries for brevity purposes.
+@inproceedings{shazeer2017,
   title         = {Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer},
-  journal       = {CoRR},
-  volume        = {abs/1701.06538},
+  author        = {Noam Shazeer and \textasteriskcenteredAzalia Mirhoseini and \textasteriskcenteredKrzysztof Maziarz and Andy Davis and Quoc Le and Geoffrey Hinton and Jeff Dean},
+  booktitle     = {International Conference on Learning Representations},
   year          = {2017},
-  url           = {http://arxiv.org/abs/1701.06538},
-  eprinttype    = {arXiv},
-  eprint        = {1701.06538},
-  timestamp     = {Mon, 13 Aug 2018 16:46:11 +0200},
-  biburl        = {https://dblp.org/rec/journals/corr/ShazeerMMDLHD17.bib},
-  bibsource     = {dblp computer science bibliography, https://dblp.org}
+  url           = {https://openreview.net/forum?id=B1ckMDqlg}
 }
-@article{DBLP:journals/corr/abs-2006-16668,
+@inproceedings{lepikhin2021gshard,
+  %  title      = {{\{}GS{\}}hard: Scaling Giant Models with Conditional Computation and Automatic Sharding},
+  title         = {GShard},
   author        = {Dmitry Lepikhin and HyoukJoong Lee and Yuanzhong Xu and Dehao Chen and Orhan Firat and Yanping Huang and Maxim Krikun and Noam Shazeer and Zhifeng Chen},
-  title         = {GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding},
-  journal       = {CoRR},
-  volume        = {abs/2006.16668},
-  year          = {2020},
-  url           = {https://arxiv.org/abs/2006.16668},
-  eprinttype    = {arXiv},
-  eprint        = {2006.16668},
-  timestamp     = {Thu, 02 Jul 2020 14:42:48 +0200},
-  biburl        = {https://dblp.org/rec/journals/corr/abs-2006-16668.bib},
-  bibsource     = {dblp computer science bibliography, https://dblp.org}
+  %  booktitle  = {International Conference on Learning Representations},
+  booktitle     = {ICLR '21},
+  %  year       = {2021},
+  url           = {https://openreview.net/forum?id=qrwe7XHTmYb}
 }
 @misc{geminiteam2024gemini,
-%  title         = {Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context},
+  %  title      = {Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context},
   title         = {Gemini 1.5},
   author        = {GeminiTeam and Google},
   year          = {2024},
@@ -37,62 +29,62 @@
 }
 @online{dbrx,
   author        = {MosaicResearch},
-%  title         = {Introducing DBRX: A New State-of-the-Art Open LLM},
+  %  title      = {Introducing DBRX: A New State-of-the-Art Open LLM},
   title         = {Introducing DBRX},
   year          = {2024},
   lastaccessed  = {May 13, 2024},
-%  url           = {https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm}
+  %  url        = {https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm}
 }
 @inproceedings{pmlr-v162-rajbhandari22a,
   title         = {{D}eep{S}peed-{M}o{E}},
-%  title         = {{D}eep{S}peed-{M}o{E}: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation {AI} Scale},
+  %  title      = {{D}eep{S}peed-{M}o{E}: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation {AI} Scale},
   author        = {Rajbhandari, Samyam and Li, Conglong and Yao, Zhewei and Zhang, Minjia and Aminabadi, Reza Yazdani and Awan, Ammar Ahmad and Rasley, Jeff and He, Yuxiong},
-%  booktitle     = {Proceedings of the 39th International Conference on Machine Learning},
+  %  booktitle  = {Proceedings of the 39th International Conference on Machine Learning},
   booktitle     = {ICML '22},
-%  pages         = {18332--18346},
-%  year          = {2022},
-%  editor        = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
-%  volume        = {162},
-%  series        = {Proceedings of Machine Learning Research},
-%  month         = {17--23 Jul},
-%  publisher     = {PMLR},
-%  pdf           = {https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf},
-%  url           = {https://proceedings.mlr.press/v162/rajbhandari22a.html}
+  %  pages      = {18332--18346},
+  %  year       = {2022},
+  %  editor     = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  %  volume     = {162},
+  %  series     = {Proceedings of Machine Learning Research},
+  %  month      = {17--23 Jul},
+  %  publisher  = {PMLR},
+  %  pdf        = {https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf},
+  %  url        = {https://proceedings.mlr.press/v162/rajbhandari22a.html}
 }
 @online{deep_comm,
   author        = {DeepSpeed},
   title         = {Communication Logging},
   year          = {2024},
   lastaccessed  = {June 4, 2024},
-%  url           = {https://www.deepspeed.ai/tutorials/comms-logging/}
+  %  url        = {https://www.deepspeed.ai/tutorials/comms-logging/}
 }
 @article{JMLR:v23:21-0998,
   author        = {William Fedus and Barret Zoph and Noam Shazeer},
-%  title         = {Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity},
+  %  title      = {Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity},
   title         = {Switch Transformers},
-%  journal       = {Journal of Machine Learning Research},
+  %  journal    = {Journal of Machine Learning Research},
   journal       = {JMLR},
   year          = {2022},
   volume        = {23},
-%  number        = {120},
-%  pages         = {1--39},
-%  url           = {http://jmlr.org/papers/v23/21-0998.html}
+  %  number     = {120},
+  %  pages      = {1--39},
+  %  url        = {http://jmlr.org/papers/v23/21-0998.html}
 }
 @inproceedings{10.1145/3603269.3604869,
   author        = {Liu, Juncai and Wang, Jessie Hui and Jiang, Yimin},
   title         = {Janus},
-%  title         = {Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models},
-%  year          = {2023},
-%  isbn          = {9798400702365},
-%  publisher     = {Association for Computing Machinery},
-%  address       = {New York, NY, USA},
-%  url           = {https://doi.org/10.1145/3603269.3604869},
-%  doi           = {10.1145/3603269.3604869},
-%  booktitle     = {Proceedings of the ACM SIGCOMM 2023 Conference},
-  series     = {\textit{SIGCOMM '23}},
-%  pages         = {486–498},
-%  numpages      = {13},
-%  keywords      = {distributed training, mixture of experts, deep learning},
-%  location      = {, New York, NY, USA,},
-%  series        = {ACM SIGCOMM '23}
+  %  title      = {Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models},
+  %  year       = {2023},
+  %  isbn       = {9798400702365},
+  %  publisher  = {Association for Computing Machinery},
+  %  address    = {New York, NY, USA},
+  %  url        = {https://doi.org/10.1145/3603269.3604869},
+  %  doi        = {10.1145/3603269.3604869},
+  %  booktitle  = {Proceedings of the ACM SIGCOMM 2023 Conference},
+  series        = {\textit{SIGCOMM '23}},
+  %  pages      = {486–498},
+  %  numpages   = {13},
+  %  keywords   = {distributed training, mixture of experts, deep learning},
+  %  location   = {, New York, NY, USA,},
+  %  series     = {ACM SIGCOMM '23}
 }

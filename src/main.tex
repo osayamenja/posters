@@ -25,6 +25,7 @@
     url=false,
     eprint=false
 ]{biblatex}
+\usepackage{amsmath}
 \addbibresource{main.bib}
 \DeclareNameFormat{family}{% https://tex.stackexchange.com/a/529305
     \usebibmacro{name:family}
@@ -108,7 +109,7 @@
             \begin{center}
                 \includegraphics[width=7cm,keepaspectratio, left]{figures/moe_only}
             \captionof{figure}{
-                \footnotesize{DMoE with $W = EP = 2$.
+                \footnotesize{DMoE~\cite{lepikhin2021gshard} with $W = EP = 2$.
                 The \textbf{Gate} routes tokens to experts;
                     \textbf{All-to-All} disseminates tokens; expert/\textbf{FFN} computation occurs;
                     \textbf{All-to-All} reconsitutes tokens followed by the~\textbf{Scale} computation.}}
@@ -116,29 +117,50 @@
         }
 
         \headerbox{Challenges}{name=challenges,span=2,column=1}{
-                \footnotesize{The widely-adopted~\cite{dbrx} MoE architecture,
-                    promising \textbf{5x} faster training and
+            The widely-adopted~\cite{geminiteam2024gemini} MoE architecture, promising \textbf{5x} faster training and
             \textbf{9x} reduced inference costs~\cite{pmlr-v162-rajbhandari22a}, is currently plagued by
-            three \textit{open} challenges~\cite{deep_comm, 10.1145/3603269.3604869, JMLR:v23:21-0998}
-                    in the distributed setting.}
+            three~\textit{open} challenges~\cite{deep_comm, 10.1145/3603269.3604869, JMLR:v23:21-0998}
+            in the distributed setting.
             \begin{center}
                 \includegraphics[width=15.4cm,keepaspectratio]{figures/moe_challenges}
             \end{center}
         }
 
-        \headerbox{Method}{name=method,span=3,column=0, below=prelim}{
+        \headerbox{Method}{name=method,span=2,column=0, below=prelim}{
             \begin{center}
-                \includegraphics[width=22cm,keepaspectratio]{figures/Aristos_case_1}
+                \includegraphics[width=14.55cm,keepaspectratio]{figures/aristos_arch}
             \end{center}
+        }
+
+        \headerbox{Ongoing Work}{name=future,span=1,column=2, aligned=method}{
+            Define $G = (V, E)$ as the cluster topology, where $V$ denotes devices and
+            $E$ communication links.
+            Equation~\ref{eqn:objective} formulates the heart of challenge \#3: finding
+            $G^* = \{g=(V_g,\;E_g)\;|\; g \subseteq G\}$ the set of optimal expert parallel groups or the
+            \emph{topology-aware sharding specification}.
+            \begin{align}\label{eqn:objective}
+            \min \enspace \max_{g \in G^*} \enspace
+            & \kappa\left( \pi(g) + \max_{i \in V_g} \> \mathcal{C}_i \right) +
+            T_{\rho}(|G^*|)
+            \end{align}
+            subject to,
+            \begin{align}\label{eqn:constraint}
+            \sum\limits_{j \in V_g}{m_j} &\geq |\mathcal{X}| &&\forall g \in G^*
+            \end{align}
+            \textbf{where}, $\mathcal{X}$ is the set of all experts and $m_j$ is expert memory capacity for device $j$.
+            Also, $\kappa$ identifies the frequency of MoE computation,
+            $\pi(g)$ is the compute cost of $g$, ${C}_i$ denotes the communication cost of device $i$ and
+            $T_{\rho}(|G^*|)$ is the cost of inter-group all-reduce on MoE parameters due to data parallelism.
+            We also note that CUDA development for Aristos Fused is underway.
         }
 
         \headerbox{Microbenchmarks}{name=micro,span=2,column=0, below=method}{
             \begin{center}
-                \includegraphics[width=15.45cm,keepaspectratio]{figures/nvsh_nccl}
+                \includegraphics[width=15cm,keepaspectratio]{figures/nvsh_nccl}
             \end{center}
         }
 
-        \headerbox{Acknowledgements}{name=ack,span=1, column=2,  below=method}{
+        \headerbox{Acknowledgements}{name=ack,span=1, column=2,  below=future}{
             \small{We thank Dr. Rachee Singh for her guidance; Dr. Guila Guidi for Perlmutter access
             under award DDR-ERCAP0027296 of the
             National Energy Research Scientific Computing Center (NERSC); and Julian Bellavita
