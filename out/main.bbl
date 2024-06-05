@@ -1,0 +1,275 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{JMLR:v23:21-0998}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=749d4fb83777d7b74c0ee8de5a510f41}{%
+           family={Fedus},
+           familyi={F\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=91aafc93e68e8c6a55e8cd804c2acaf2}{%
+           family={Zoph},
+           familyi={Z\bibinitperiod},
+           given={Barret},
+           giveni={B\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{27fc098359173279b89e523ea4cb07c6}
+      \strng{fullhash}{3a4d4f3ef7220737c921ca534c5e4379}
+      \strng{fullhashraw}{3a4d4f3ef7220737c921ca534c5e4379}
+      \strng{bibnamehash}{27fc098359173279b89e523ea4cb07c6}
+      \strng{authorbibnamehash}{27fc098359173279b89e523ea4cb07c6}
+      \strng{authornamehash}{27fc098359173279b89e523ea4cb07c6}
+      \strng{authorfullhash}{3a4d4f3ef7220737c921ca534c5e4379}
+      \strng{authorfullhashraw}{3a4d4f3ef7220737c921ca534c5e4379}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMLR}
+      \field{title}{Switch Transformers}
+      \field{volume}{23}
+      \field{year}{2022}
+    \endentry
+    \entry{deep_comm}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=45e79cef3af9eecc6153cdf8c1db97c9}{%
+           family={DeepSpeed},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{fullhash}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{fullhashraw}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{bibnamehash}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{authorbibnamehash}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{authornamehash}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{authorfullhash}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{authorfullhashraw}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Communication Logging}
+      \field{year}{2024}
+    \endentry
+    \entry{geminiteam2024gemini}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=176790f20018e62732750fd3853fffa5}{%
+           family={GeminiTeam},
+           familyi={G\bibinitperiod}}}%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{473fcf62a6f098eaca2b658bbcc095aa}
+      \strng{fullhash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{fullhashraw}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{bibnamehash}{473fcf62a6f098eaca2b658bbcc095aa}
+      \strng{authorbibnamehash}{473fcf62a6f098eaca2b658bbcc095aa}
+      \strng{authornamehash}{473fcf62a6f098eaca2b658bbcc095aa}
+      \strng{authorfullhash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{authorfullhashraw}{9421a87d9be5c70bc79f7822d2f26a46}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Gemini 1.5}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2403.05530
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.05530
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.05530
+      \endverb
+    \endentry
+    \entry{lepikhin2021gshard}{inproceedings}{}{}
+      \name{author}{9}{}{%
+        {{hash=2ca508543b6fa5af72e4238da74cff35}{%
+           family={Lepikhin},
+           familyi={L\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d46801cad0f09d95419d45b0fdf9810c}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={HyoukJoong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=aeb9612f51171ed2578e46a49f685b97}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yuanzhong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=96afffbf89c868701856413526dfe118}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Dehao},
+           giveni={D\bibinitperiod}}}%
+        {{hash=199f475d073184300c78ea1ea7d001e1}{%
+           family={Firat},
+           familyi={F\bibinitperiod},
+           given={Orhan},
+           giveni={O\bibinitperiod}}}%
+        {{hash=346a2c7017c020c4a8448409f0e3daf7}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yanping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8c2ce3e06666676855e01e5bb2466d92}{%
+           family={Krikun},
+           familyi={K\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c0d10aaf985cebf8d0497e1828f9313f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhifeng},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{009e19e9afb80b8366545bca06b25160}
+      \strng{fullhash}{c2210189d57f5fd2dfdc87562d252001}
+      \strng{fullhashraw}{c2210189d57f5fd2dfdc87562d252001}
+      \strng{bibnamehash}{009e19e9afb80b8366545bca06b25160}
+      \strng{authorbibnamehash}{009e19e9afb80b8366545bca06b25160}
+      \strng{authornamehash}{009e19e9afb80b8366545bca06b25160}
+      \strng{authorfullhash}{c2210189d57f5fd2dfdc87562d252001}
+      \strng{authorfullhashraw}{c2210189d57f5fd2dfdc87562d252001}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICLR '21}
+      \field{title}{GShard}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=qrwe7XHTmYb
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=qrwe7XHTmYb
+      \endverb
+    \endentry
+    \entry{10.1145/3603269.3604869}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=0d5858a7d43a25e8014f93535df5e1a4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Juncai},
+           giveni={J\bibinitperiod}}}%
+        {{hash=da951097bb51db40e40f47d1ce8bd375}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jessie\bibnamedelima Hui},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2ab297a85e0050f68a84d0539709f1f1}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yimin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{db5663c165323d39aa9638320a65d029}
+      \strng{fullhash}{6cad936db3817cb7ade5611f28010e7e}
+      \strng{fullhashraw}{6cad936db3817cb7ade5611f28010e7e}
+      \strng{bibnamehash}{db5663c165323d39aa9638320a65d029}
+      \strng{authorbibnamehash}{db5663c165323d39aa9638320a65d029}
+      \strng{authornamehash}{db5663c165323d39aa9638320a65d029}
+      \strng{authorfullhash}{6cad936db3817cb7ade5611f28010e7e}
+      \strng{authorfullhashraw}{6cad936db3817cb7ade5611f28010e7e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{\textit{SIGCOMM '23}}
+      \field{title}{Janus}
+    \endentry
+    \entry{pmlr-v162-rajbhandari22a}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=d780451abfe83fa36b8188128dd49256}{%
+           family={Rajbhandari},
+           familyi={R\bibinitperiod},
+           given={Samyam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=198b4ab351365a167129f11627a8b243}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Conglong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e53d4d0172865556a0b0a5989a7f5c6f}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Zhewei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=25af732fe1fbaad2b048c5c39729b744}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Minjia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=42782a22a81c75822eb376cf584399dd}{%
+           family={Aminabadi},
+           familyi={A\bibinitperiod},
+           given={Reza\bibnamedelima Yazdani},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=82c01131107185c67bf683db23ca1e89}{%
+           family={Awan},
+           familyi={A\bibinitperiod},
+           given={Ammar\bibnamedelima Ahmad},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bf851cabe7082a61a8b46a398a4ab4e7}{%
+           family={Rasley},
+           familyi={R\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a1be1c510b34082b3cb846cf8147969}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yuxiong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1997458e7d38752f4374499bf4bbb94f}
+      \strng{fullhash}{d23bfde8197a409edcd8f609c9d50ab1}
+      \strng{fullhashraw}{d23bfde8197a409edcd8f609c9d50ab1}
+      \strng{bibnamehash}{1997458e7d38752f4374499bf4bbb94f}
+      \strng{authorbibnamehash}{1997458e7d38752f4374499bf4bbb94f}
+      \strng{authornamehash}{1997458e7d38752f4374499bf4bbb94f}
+      \strng{authorfullhash}{d23bfde8197a409edcd8f609c9d50ab1}
+      \strng{authorfullhashraw}{d23bfde8197a409edcd8f609c9d50ab1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICML '22}
+      \field{title}{{D}eep{S}peed-{M}o{E}}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
