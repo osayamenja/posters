@@ -54,26 +54,44 @@
       \field{volume}{23}
       \field{year}{2022}
     \endentry
-    \entry{deep_comm}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=45e79cef3af9eecc6153cdf8c1db97c9}{%
-           family={DeepSpeed},
-           familyi={D\bibinitperiod}}}%
+    \entry{MLSYS2023_5a54f793}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=c7fc2ec4e4f0cbfedeff8c8a385eeb90}{%
+           family={Gale},
+           familyi={G\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b34c3675fa6935732be9302df09d61e7}{%
+           family={Narayanan},
+           familyi={N\bibinitperiod},
+           given={Deepak},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2b3412c48bab46f41faab78455fce0e1}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Cliff},
+           giveni={C\bibinitperiod}}}%
+        {{hash=00dc518b94dfa6349c86e70661a1a5ef}{%
+           family={Zaharia},
+           familyi={Z\bibinitperiod},
+           given={Matei},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{fullhash}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{fullhashraw}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{bibnamehash}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{authorbibnamehash}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{authornamehash}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{authorfullhash}{45e79cef3af9eecc6153cdf8c1db97c9}
-      \strng{authorfullhashraw}{45e79cef3af9eecc6153cdf8c1db97c9}
+      \strng{namehash}{fc1f55c43a0a8c3e449dfafe4dcc7f58}
+      \strng{fullhash}{9d35c802d967a50aa9b11ff16c28e94d}
+      \strng{fullhashraw}{9d35c802d967a50aa9b11ff16c28e94d}
+      \strng{bibnamehash}{fc1f55c43a0a8c3e449dfafe4dcc7f58}
+      \strng{authorbibnamehash}{fc1f55c43a0a8c3e449dfafe4dcc7f58}
+      \strng{authornamehash}{fc1f55c43a0a8c3e449dfafe4dcc7f58}
+      \strng{authorfullhash}{9d35c802d967a50aa9b11ff16c28e94d}
+      \strng{authorfullhashraw}{9d35c802d967a50aa9b11ff16c28e94d}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Communication Logging}
-      \field{year}{2024}
+      \field{booktitle}{MLSys}
+      \field{title}{MegaBlocks}
+      \field{year}{2023}
     \endentry
     \entry{geminiteam2024gemini}{misc}{}{}
       \name{author}{2}{}{%
@@ -109,74 +127,26 @@
       \verb https://arxiv.org/abs/2403.05530
       \endverb
     \endentry
-    \entry{lepikhin2021gshard}{inproceedings}{}{}
-      \name{author}{9}{}{%
-        {{hash=2ca508543b6fa5af72e4238da74cff35}{%
-           family={Lepikhin},
-           familyi={L\bibinitperiod},
-           given={Dmitry},
-           giveni={D\bibinitperiod}}}%
-        {{hash=d46801cad0f09d95419d45b0fdf9810c}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={HyoukJoong},
-           giveni={H\bibinitperiod}}}%
-        {{hash=aeb9612f51171ed2578e46a49f685b97}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Yuanzhong},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=96afffbf89c868701856413526dfe118}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Dehao},
-           giveni={D\bibinitperiod}}}%
-        {{hash=199f475d073184300c78ea1ea7d001e1}{%
-           family={Firat},
-           familyi={F\bibinitperiod},
-           given={Orhan},
-           giveni={O\bibinitperiod}}}%
-        {{hash=346a2c7017c020c4a8448409f0e3daf7}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Yanping},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=8c2ce3e06666676855e01e5bb2466d92}{%
-           family={Krikun},
-           familyi={K\bibinitperiod},
-           given={Maxim},
-           giveni={M\bibinitperiod}}}%
-        {{hash=62efade83d70f0323fe248755e6c90c5}{%
-           family={Shazeer},
-           familyi={S\bibinitperiod},
-           given={Noam},
-           giveni={N\bibinitperiod}}}%
-        {{hash=c0d10aaf985cebf8d0497e1828f9313f}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Zhifeng},
-           giveni={Z\bibinitperiod}}}%
+    \entry{dbrx}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=478f737219a35885061d2bfe10cb5909}{%
+           family={MosaicResearch},
+           familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{009e19e9afb80b8366545bca06b25160}
-      \strng{fullhash}{c2210189d57f5fd2dfdc87562d252001}
-      \strng{fullhashraw}{c2210189d57f5fd2dfdc87562d252001}
-      \strng{bibnamehash}{009e19e9afb80b8366545bca06b25160}
-      \strng{authorbibnamehash}{009e19e9afb80b8366545bca06b25160}
-      \strng{authornamehash}{009e19e9afb80b8366545bca06b25160}
-      \strng{authorfullhash}{c2210189d57f5fd2dfdc87562d252001}
-      \strng{authorfullhashraw}{c2210189d57f5fd2dfdc87562d252001}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{namehash}{478f737219a35885061d2bfe10cb5909}
+      \strng{fullhash}{478f737219a35885061d2bfe10cb5909}
+      \strng{fullhashraw}{478f737219a35885061d2bfe10cb5909}
+      \strng{bibnamehash}{478f737219a35885061d2bfe10cb5909}
+      \strng{authorbibnamehash}{478f737219a35885061d2bfe10cb5909}
+      \strng{authornamehash}{478f737219a35885061d2bfe10cb5909}
+      \strng{authorfullhash}{478f737219a35885061d2bfe10cb5909}
+      \strng{authorfullhashraw}{478f737219a35885061d2bfe10cb5909}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{ICLR '21}
-      \field{title}{GShard}
-      \verb{urlraw}
-      \verb https://openreview.net/forum?id=qrwe7XHTmYb
-      \endverb
-      \verb{url}
-      \verb https://openreview.net/forum?id=qrwe7XHTmYb
-      \endverb
+      \field{title}{Introducing DBRX}
+      \field{year}{2024}
     \endentry
     \entry{10.1145/3603269.3604869}{inproceedings}{}{}
       \name{author}{3}{}{%

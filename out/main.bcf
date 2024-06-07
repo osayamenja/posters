@@ -2372,12 +2372,12 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">main.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">lepikhin2021gshard</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">geminiteam2024gemini</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">pmlr-v162-rajbhandari22a</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">deep_comm</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">10.1145/3603269.3604869</bcf:citekey>
-    <bcf:citekey order="4" intorder="3">JMLR:v23:21-0998</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">MLSYS2023_5a54f793</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">geminiteam2024gemini</bcf:citekey>
+    <bcf:citekey order="1" intorder="3">dbrx</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">pmlr-v162-rajbhandari22a</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">10.1145/3603269.3604869</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">JMLR:v23:21-0998</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

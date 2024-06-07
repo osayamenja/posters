@@ -58,7 +58,7 @@
 
 \definecolor{bordercolor}{RGB}{248,152,29}
 \definecolor{backgroundcolor}{RGB}{0,102,153}
-\captionsetup{justification=raggedright,singlelinecheck=false} %https://tex.stackexchange.com/a/275141
+%\captionsetup{justification=raggedright,singlelinecheck=false} %https://tex.stackexchange.com/a/275141
 \begin{document}
     \begin{poster}
     {
@@ -107,35 +107,31 @@
 
         \headerbox{Background}{name=prelim,span=1,column=0}{
             \begin{center}
-                \includegraphics[width=7cm,keepaspectratio, left]{figures/moe_only}
-            \captionof{figure}{
-                \footnotesize{DMoE~\cite{lepikhin2021gshard} with $W = EP = 2$.
-                The \textbf{Gate} routes tokens to experts;
-                    \textbf{All-to-All} disseminates tokens; expert/\textbf{FFN} computation occurs;
-                    \textbf{All-to-All} reconsitutes tokens followed by the~\textbf{Scale} computation.}}
+                \includegraphics[width=7.3cm, keepaspectratio]{figures/dmoe}
             \end{center}
         }
 
         \headerbox{Challenges}{name=challenges,span=2,column=1}{
-            The widely-adopted~\cite{geminiteam2024gemini} MoE architecture, promising \textbf{5x} faster training and
+            The widely-adopted~\cite{MLSYS2023_5a54f793, geminiteam2024gemini, dbrx} MoE architecture,
+            promising \textbf{5x} faster training and
             \textbf{9x} reduced inference costs~\cite{pmlr-v162-rajbhandari22a}, is currently plagued by
-            three~\textit{open} challenges~\cite{deep_comm, 10.1145/3603269.3604869, JMLR:v23:21-0998}
+            three~\textit{open} challenges~\cite{10.1145/3603269.3604869, JMLR:v23:21-0998}
             in the distributed setting.
             \begin{center}
-                \includegraphics[width=15.4cm,keepaspectratio]{figures/moe_challenges}
+                \includegraphics[width=15.4cm, keepaspectratio]{figures/moe_challenges}
             \end{center}
         }
 
-        \headerbox{Method}{name=method,span=2,column=0, below=prelim}{
+        \headerbox{Method}{name=method,span=2,column=0, below=challenges}{
             \begin{center}
-                \includegraphics[width=14.55cm,keepaspectratio]{figures/aristos_arch}
+                \includegraphics[width=14.55cm,keepaspectratio]{figures/aristos_arc}
             \end{center}
         }
 
         \headerbox{Ongoing Work}{name=future,span=1,column=2, aligned=method}{
             Define $G = (V, E)$ as the cluster topology, where $V$ denotes devices and
             $E$ communication links.
-            Equation~\ref{eqn:objective} formulates the heart of challenge \#3: finding
+            Equation~\ref{eqn:objective} captures the objective of challenge \#3: finding
             $G^* = \{g=(V_g,\;E_g)\;|\; g \subseteq G\}$ the set of optimal expert parallel groups or the
             \emph{topology-aware sharding specification}.
             \begin{align}\label{eqn:objective}
@@ -156,7 +152,7 @@
 
         \headerbox{Microbenchmarks}{name=micro,span=2,column=0, below=method}{
             \begin{center}
-                \includegraphics[width=15cm,keepaspectratio]{figures/nvsh_nccl}
+                \includegraphics[width=15.25cm,keepaspectratio]{figures/nvsh_nccl}
             \end{center}
         }
 
