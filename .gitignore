@@ -1,6 +1,6 @@
 .idea
-out
-!out/*.pdf
+out/*
+!out/main.pdf
 *.iml
 *.original
 .DS_Store
